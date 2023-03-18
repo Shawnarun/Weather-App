@@ -1,0 +1,32 @@
+.background{
+    background: url(../../../public/img/photo-1545193544-312983719627_ixlib=rb-1.2.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+}
+
+.background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.background h1{
+    margin-top: 50px;
+    font-size: 6rem;
+}
+
+
+
+
+
+h1{
+    color: var(--Black);
+   }
+
+  

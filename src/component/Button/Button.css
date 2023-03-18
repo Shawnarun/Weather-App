@@ -1,0 +1,31 @@
+.btn_shadow1 a {
+  color: var(--darkBlue);
+}
+.btn_shadow1 {
+  display: flex;
+  border: 2px solid black !important;
+  background-color: transparent;
+  cursor: pointer;
+  background-color: transparent;
+  height: 50px;
+  width: 200px;
+  box-shadow: 0 6px 6px rgba(221, 216, 216, 0.6);
+  border-radius: 6px;
+  transition: 0.3s all ease;
+  text-decoration: none;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_shadow1:hover {
+  color: var(--white);
+  border: 2px solid rgb(222, 215, 215) !important;
+
+}
+
+.btn_shadow1:hover {
+  background: var(--darkBlue);
+  transform: translateY(10px);
+}
+
